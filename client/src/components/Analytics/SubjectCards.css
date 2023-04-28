@@ -7,7 +7,7 @@
     margin-bottom: 2rem;
   }
   
-  .card {
+  .card2 {
     flex: 0 0 calc(25% - 20px);
     margin: 0 10px;
     margin-top: 2rem;
@@ -17,6 +17,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.1s ease-in-out 0.1s;
     border-radius: 5px;
+    padding: 1rem;
+    
   }
   .card:hover {
     transform: translateY(-5px);
@@ -31,7 +33,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   } */
-  .card .img {
+  .card2 .img {
     width: 100%;
     height: 50%;
     margin-bottom: 20px;
@@ -40,16 +42,16 @@
     justify-content: center;
   }
   
-  .card .img svg {
+  .card2 .img svg {
     width: 60%;
     height: auto;
   }
   
-  .card h2 {
+  .card2 h2 {
     margin: 10px 0;
   }
   
-  .card p {
+  .card2 p {
     margin: 0 10px 10px 10px;
   }
 
@@ -66,7 +68,7 @@
     
   }
   
-  .card .dropdown {
+  .card2 .dropdown {
     position: absolute;
     width: 150px;
     background-color: #fff;
@@ -78,7 +80,7 @@
     z-index: 1;
     top: 50%;
   }
-  .card .dropdown-item {
+  .card2 .dropdown-item {
     padding: 10px;
     font-size: 14px;
     color: #444;
@@ -86,7 +88,7 @@
     transition: all 0.3s ease-in-out;
     z-index: 1;
   }
-  .card .dropdown-item:hover {
+  .card2 .dropdown-item:hover {
     background-color: #f9f9f9;
   }
   .slider::-webkit-scrollbar {

@@ -47,6 +47,7 @@ const TopStudents = (props) => {
           height={400}
           theme={VictoryTheme.material}
           domainPadding={{ x: 60 }}
+          responsive={true}
         >
           <VictoryAxis
             label="Student Name"

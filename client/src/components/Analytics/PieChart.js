@@ -75,7 +75,7 @@ import TopStudents from "./TopStudents";
       console.log(data);
 
       return (
-        <div className="area" style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
+        <div className="area" style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
           <div style={{
                background: "rgb(225, 248, 220)", 
                width: "40rem", 

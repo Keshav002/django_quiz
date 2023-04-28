@@ -38,7 +38,7 @@ function Result() {
 
   return (
     <>
-      <div style={{ height: '20rem', width: '81rem', overflow: 'auto', background: "pink", border: "2px solid grey" }}>
+      <div style={{ height: '23rem', overflowX: 'auto', background: "pink", border: "2px solid grey" }}>
         <table style={{ width: '100%' }} className="table table-hover">
           <thead>
             <tr>

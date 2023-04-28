@@ -41,7 +41,7 @@ const SubjectCards = () => {
             className="slider"
         >
             {subjects.map((subject, index) => (
-                <div className="card" key={index}>
+                <div className="card2" key={index}>
                     <div className="img">
                     <Logo />
                     </div>

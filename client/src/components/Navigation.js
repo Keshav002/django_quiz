@@ -42,7 +42,7 @@ const Navigation = ({color}) => {
                     <li><NavLink to="/subjects" style={{color:color}}>Home</NavLink></li>
                 )}
                 
-                    <li><NavLink to="/logout" >Logout</NavLink></li>
+                    <li><NavLink to="/logout" style={{color:'red'}}>Logout</NavLink></li>
                     <li style={{color:'blue', marginRight:"2rem",marginTop:".8rem", fontWeight:"bolder", fontSize:"1.2rem"}}>Welcome {userName}</li>
                     {console.log(userName)}
                     {console.log(id)}
@@ -94,7 +94,12 @@ const Navigation = ({color}) => {
     return (
         <nav className="navbar">
             {/* <div className="brand-title" style={{color:color}}>iBid.</div> */}
-            <div className="brand-title"><h3>QuizApp</h3></div>
+           
+            <div className="brand-title">
+            <img src="https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/000000/external-Quiz-school-smashingstocks-flat-smashing-stocks.png"/>
+                <h3>QuizApp</h3>
+            
+            </div>
             
         <a href="#0" className="toggle-button" onClick={() => setOpen(!open)}>  {/*toggle button */}
                 <span className="bar" style={{backgroundColor:color}}></span>
