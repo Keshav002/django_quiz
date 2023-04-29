@@ -3,10 +3,10 @@
 This is a web application for creating and taking quizzes.
 
 ## Table of Contents
-Features
-Installation
-Usage
-Contributing
+Features\
+Installation\
+Usage\
+Contributing\
 Credits
 
 ### Features
@@ -25,9 +25,9 @@ Follow these steps to install the app:
 
 Run git clone django_quiz in your terminal. 
 
- Install the required packages:
+### Install the required packages:
 
-Navigate to the frontend directory using cd client and run npm install to install the required packages for the React frontend.
+Navigate to the frontend directory using cd client and run npm install to install the required packages for the React frontend.\
 Navigate to the backend directory using cd ../quizapp and run pip install -r requirements.txt to install the required packages for the Django backend.
 Start the development server:
 
@@ -75,7 +75,7 @@ Make your changes.
 Submit a pull request.
 
 ### Credits
-This project was created by [Keshav002]. Special thanks to the following resources:
+This project is created by [Keshav002](https://github.com/Keshav002). Special thanks to the following resources:
 
-Django documentation
-React documentation
+[Django documentation](https://docs.djangoproject.com/en/3.2/)\
+[React documentation](https://legacy.reactjs.org/docs/getting-started.html)
